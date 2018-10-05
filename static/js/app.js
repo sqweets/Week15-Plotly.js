@@ -60,10 +60,16 @@ function buildCharts(sample) {
       autosize: false,
       showlegend: false,
       height: 600,
-      width: 1400,
-      margin: {
-        r: 0,
-        t: 15
+      width: 1500,
+       margin: {
+         l: 175,
+         t: 0
+       },
+      xaxis: {
+        title: 'OTU ID',
+        titlefont: {
+          size: 12
+        }
       }
     };
 

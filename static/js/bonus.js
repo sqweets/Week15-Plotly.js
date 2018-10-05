@@ -68,7 +68,7 @@ function buildGuage(sample) {
               color: '850000'
             }
           }],
-        title: 'Belly Button Washing Frequency',
+        title: "<b>Belly Button Washing Frequency</b><br>Scrubs per Week",
         height: 550,
         width: 550,
         xaxis: {zeroline:false, showticklabels:false,
